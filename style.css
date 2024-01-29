@@ -79,3 +79,42 @@ img
     border-radius: 1rem;
     
 }
+
+@media screen and (max-width: 600px) {
+
+        img
+        {
+            height: 120px;
+            width: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        h1
+        {
+            width: 100%;
+        }
+        
+        .score-board
+        {
+            width: 100%;
+            font-size: 1.8rem;
+            margin-top: 1.8rem;
+            
+        }
+
+        .choices
+        {
+            gap: 0.2rem;
+        }
+        .choice
+        {
+            height: 135px;
+            width: 135px;
+        }
+
+        #msg
+        {
+            font-size: 1.4rem;
+        }
+  }
